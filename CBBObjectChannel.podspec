@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "CBBObjectChannel"
-  s.version = "2.0.0"
+  s.version = "2.0.1"
   s.summary = "ObjectChannel for iOS"
   s.homepage = "https://github.com/cross-border-bridge/object-channel-ios"
   s.author = 'DWANGO Co., Ltd.'
