@@ -122,7 +122,7 @@ typedef _Nonnull id (^CBBObjectSpaceConstructHandler)(NSArray* _Nullable argumen
     NSMethodSignature* methodSignature = [instance methodSignatureForSelector:selector];
     if (methodSignature) {
         NSInvocation* invocation = [NSInvocation invocationWithMethodSignature:methodSignature];
-        NSLog(@"invocation: %@, numberOfArguments: %ld", invocation, methodSignature.numberOfArguments);
+        NSLog(@"invocation: %@, numberOfArguments: %lu", invocation, (unsigned long)methodSignature.numberOfArguments);
         if (invocation && 2 == methodSignature.numberOfArguments) {
             invocation.selector = selector;
             invocation.target = instance;
