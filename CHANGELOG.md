@@ -1,5 +1,8 @@
 # Change log
 
+## Version 2.0.3
+CBBFunctionChannelを更新: v2.0.2 -> v2.0.3
+
 ## Version 2.0.2
 警告修正
 
