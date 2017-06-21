@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.platform = :ios, "8.0"
   s.source = { :git => "https://github.com/cross-border-bridge/object-channel-ios.git", :tag => "#{s.version}" }
   s.source_files = "CBBObjectChannel/**/*.{h,m}"
-  s.dependency "CBBFunctionChannel"
+  s.dependency "CBBFunctionChannel", "~> 2.0.5"
 end
